@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.1.35" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\GlowingStoreApi.Authentication\GlowingStoreApi.Authentication.csproj" />
     <ProjectReference Include="..\GlowingStoreApi.Shared\GlowingStoreApi.Shared.csproj" />
   </ItemGroup>

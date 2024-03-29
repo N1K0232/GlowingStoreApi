@@ -3,10 +3,61 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowingStoreApi", "src\GlowingStoreApi\GlowingStoreApi.csproj", "{5FA30310-F6AC-409A-B9CF-6F0E74A3BF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowingStoreApi.BusinessLayer", "src\GlowingStoreApi.BusinessLayer\GlowingStoreApi.BusinessLayer.csproj", "{61B2442D-9604-4682-8806-14FCF84FE980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowingStoreApi.DataAccessLayer", "src\GlowingStoreApi.DataAccessLayer\GlowingStoreApi.DataAccessLayer.csproj", "{7C99383B-DB97-43D2-9454-BE8FF2BB2E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowingStoreApi.Authentication", "src\GlowingStoreApi.Authentication\GlowingStoreApi.Authentication.csproj", "{3F085F77-3220-49B7-AE2E-7941D8BF15A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowingStoreApi.Shared", "src\GlowingStoreApi.Shared\GlowingStoreApi.Shared.csproj", "{5DFC5681-0EC8-41EA-87D0-29F9A4DE33F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlowingStoreApi.StorageProviders", "src\GlowingStoreApi.StorageProviders\GlowingStoreApi.StorageProviders.csproj", "{D57DAFDD-5C02-4DAC-997C-9CAA654EECA3}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "GlowingStoreApi.Database", "src\GlowingStoreApi.Database\GlowingStoreApi.Database.sqlproj", "{542BF054-E16F-46A7-8714-97BC98ACBF17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{84AA34DD-0B4E-4751-8B84-23A41BC8C941}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FA30310-F6AC-409A-B9CF-6F0E74A3BF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FA30310-F6AC-409A-B9CF-6F0E74A3BF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FA30310-F6AC-409A-B9CF-6F0E74A3BF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FA30310-F6AC-409A-B9CF-6F0E74A3BF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61B2442D-9604-4682-8806-14FCF84FE980}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B2442D-9604-4682-8806-14FCF84FE980}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B2442D-9604-4682-8806-14FCF84FE980}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B2442D-9604-4682-8806-14FCF84FE980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C99383B-DB97-43D2-9454-BE8FF2BB2E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C99383B-DB97-43D2-9454-BE8FF2BB2E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C99383B-DB97-43D2-9454-BE8FF2BB2E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C99383B-DB97-43D2-9454-BE8FF2BB2E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F085F77-3220-49B7-AE2E-7941D8BF15A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F085F77-3220-49B7-AE2E-7941D8BF15A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F085F77-3220-49B7-AE2E-7941D8BF15A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F085F77-3220-49B7-AE2E-7941D8BF15A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFC5681-0EC8-41EA-87D0-29F9A4DE33F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFC5681-0EC8-41EA-87D0-29F9A4DE33F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFC5681-0EC8-41EA-87D0-29F9A4DE33F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFC5681-0EC8-41EA-87D0-29F9A4DE33F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D57DAFDD-5C02-4DAC-997C-9CAA654EECA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D57DAFDD-5C02-4DAC-997C-9CAA654EECA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D57DAFDD-5C02-4DAC-997C-9CAA654EECA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D57DAFDD-5C02-4DAC-997C-9CAA654EECA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542BF054-E16F-46A7-8714-97BC98ACBF17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542BF054-E16F-46A7-8714-97BC98ACBF17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542BF054-E16F-46A7-8714-97BC98ACBF17}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{542BF054-E16F-46A7-8714-97BC98ACBF17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542BF054-E16F-46A7-8714-97BC98ACBF17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542BF054-E16F-46A7-8714-97BC98ACBF17}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
